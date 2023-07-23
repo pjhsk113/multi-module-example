@@ -1,1 +1,35 @@
+spring:
+  application:
+    name: module-api
+  profiles:
+    active: local
 
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+---
+spring:
+  config:
+    activate:
+      on-profile: alpha
+
+---
+spring:
+  config:
+    activate:
+      on-profile: beta
+
+---
+spring:
+  config:
+    activate:
+      on-profile: stage
+
+---
+spring:
+  config:
+    activate:
+      on-profile: release
