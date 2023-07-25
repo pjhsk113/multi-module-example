@@ -1,5 +1,6 @@
 rootProject.name = 'multi-module-example'
 
 include(
-        "module-api"
+        "module-api",
+        "support:logging"
 )
