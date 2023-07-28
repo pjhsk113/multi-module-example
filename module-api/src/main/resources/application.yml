@@ -6,6 +6,7 @@ spring:
   config:
     import:
       - logging.xml
+      - db-module.yml
 ---
 spring:
   config:
