@@ -1,4 +1,4 @@
-package storage.db.main.config;
+package io.study.demo.storage.db.main.config;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MainDataSourceConfig {
     @Bean
-    @ConfigurationProperties(prefix = "datasource.main")
+    @ConfigurationProperties(prefix = "demo.datasource.main")
     public HikariConfig mainHikariConfig() {
         return new HikariConfig();
     }

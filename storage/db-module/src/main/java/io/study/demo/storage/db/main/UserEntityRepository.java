@@ -1,8 +1,8 @@
-package storage.db.main;
+package io.study.demo.storage.db.main;
 
+import io.study.demo.user.User;
+import io.study.demo.user.UserRepository;
 import org.springframework.stereotype.Repository;
-import user.User;
-import user.UserRepository;
 
 import java.util.Optional;
 

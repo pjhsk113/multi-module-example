@@ -1,4 +1,4 @@
-package storage.db.main;
+package io.study.demo.storage.db.main;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

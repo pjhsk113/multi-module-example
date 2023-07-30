@@ -1,4 +1,4 @@
-package user;
+package io.study.demo.user;
 
 import java.util.Optional;
 
