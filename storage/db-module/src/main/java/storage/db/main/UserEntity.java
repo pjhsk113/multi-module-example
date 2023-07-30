@@ -1,3 +1,5 @@
+package storage.db.main;
+
 import jakarta.persistence.Entity;
 
 @Entity
