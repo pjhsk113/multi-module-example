@@ -20,4 +20,8 @@ public class BaseEntity {
 
     @UpdateTimestamp
     private ZonedDateTime updateAt;
+
+    public Long getId() {
+        return id;
+    }
 }
