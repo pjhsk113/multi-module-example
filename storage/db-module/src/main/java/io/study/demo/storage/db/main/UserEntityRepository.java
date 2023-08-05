@@ -1,7 +1,7 @@
 package io.study.demo.storage.db.main;
 
-import io.study.demo.user.User;
-import io.study.demo.user.UserRepository;
+import io.study.demo.domain.user.User;
+import io.study.demo.domain.user.UserRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
