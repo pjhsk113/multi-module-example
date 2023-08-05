@@ -1,4 +1,4 @@
-package io.study.demo.user;
+package io.study.demo.domain.user;
 
 public class User {
     private Long id;

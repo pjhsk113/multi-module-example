@@ -1,4 +1,4 @@
-package io.study.demo.user;
+package io.study.demo.domain.user;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package io.study.demo.user;
+package io.study.demo.domain.user;
 
 import org.springframework.stereotype.Component;
 
@@ -14,6 +14,6 @@ public class UserReader {
 
     public User read(Long id) {
         return userRepository.read(id)
-                .orElseThrow(() -> new NoSuchElementException());
+                .orElseThrow(NoSuchElementException::new);
     }
 }

@@ -1,6 +1,7 @@
 package io.study.demo.api;
 
-import io.study.demo.user.UserService;
+
+import io.study.demo.domain.user.UserService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

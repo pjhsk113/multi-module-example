@@ -1,6 +1,6 @@
 package io.study.demo.api;
 
-import io.study.demo.user.User;
+import io.study.demo.domain.user.User;
 
 public class UserResponse {
     private String name;
